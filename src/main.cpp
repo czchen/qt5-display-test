@@ -25,17 +25,10 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    QFont font("AR PL UMing TW", 12, 0, true);
-    font.setUnderline(true);
-    QApplication::setFont(font);
-
     QLabel x;
-
-    x.setText("測試 ㄘㄜˋ ㄕˋ");
-
+    x.setText("ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ");
     x.show();
 
-    qDebug() << "font.toString()" << font.toString();
     qDebug() << "x.font().toString()" << x.font().toString();
 
     return app.exec();
