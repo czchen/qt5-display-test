@@ -18,7 +18,6 @@
 
 #include <QApplication>
 #include <QDebug>
-#include <QFont>
 #include <QLabel>
 
 int main(int argc, char *argv[])
